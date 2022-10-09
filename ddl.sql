@@ -30,12 +30,17 @@ DESC course;
 DESC student;
 DESC student_schedule;
 
--- --menambahkan data baru pada tabel student
+-- menambahkan data baru pada tabel student
 insert into student	(id,full_name,address,major)
-values ();
+values ();	
 -- untuk menampilkan data student
 select * from student;
 
+-- update info student 
+update student
+set id = 124, student_name =,address =, major =;
+-- get list schedule on specific student
+select * from course where id ="";
 
 
 -- INI TABLE student_schedule
