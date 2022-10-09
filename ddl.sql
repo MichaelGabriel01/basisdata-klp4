@@ -38,7 +38,7 @@ select * from student;
 
 -- update info student 
 update student
-set id = 124, student_name =,address =, major =;
+set student_name ="lala",address ="adasd", major ="asdas" where id = "";
 -- get list schedule on specific student
 select * from course where id ="";
 
